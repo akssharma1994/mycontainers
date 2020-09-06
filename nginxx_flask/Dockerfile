@@ -1,2 +1,2 @@
-FROM tiangolo/uwsgi-nginx-flask:pythoni4.8
+FROM tiangolo/uwsgi-nginx-flask:python3.8
 ADD main.py .
