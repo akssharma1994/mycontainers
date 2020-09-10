@@ -1,2 +1,2 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.8
-ADD ./app /app
+COPY ./app /app
